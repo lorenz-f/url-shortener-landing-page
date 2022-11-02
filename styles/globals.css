@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F2F2F2] overflow-x-hidden;
+  }
+  li {
+    @apply hover:text-[#2BD0D0] cursor-pointer; 
+  }
+}
