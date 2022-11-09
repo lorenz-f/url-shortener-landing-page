@@ -89,16 +89,16 @@ function LinkForm() {
     }
 
     return (
-      <div className="flex flex-row w-[77.1%] h-20 bg-white text-xl pl-6 relative mx-[auto] my-4 items-center">
+      <div className="flex flex-row w-[77.1%] h-20 bg-white text-xl pl-6 mx-[auto] my-4 items-center">
         <div className="text-black w-[50%] pl-4">{originalLink}</div>
-        <div className="absolute right-24 text-[#2BD0D0] w-[18%]">
+        <div className="ml-96 text-[#2BD0D0] w-[18%]">
           {shortLink}
         </div>
         <button
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}
           onClick={handleCopy}
-          className="absolute right-6 h-[55.5%] w-[9.27%] text-white text-md font-bold rounded-lg border-0"
+          className="ml-auto mr-6 h-[55.5%] w-[9.27%] text-white text-md font-bold rounded-lg border-0"
           style={{
             backgroundColor: visited
               ? "#3A3054"
