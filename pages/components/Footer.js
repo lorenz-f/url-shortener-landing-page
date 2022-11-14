@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-// remember that i removed the arrows from 
-
 function Footer() {
   let [hover, setHover] = useState(false);
   let [hover2, setHover2] = useState(false);
